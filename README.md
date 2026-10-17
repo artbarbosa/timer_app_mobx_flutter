@@ -1,16 +1,26 @@
-# timer_app
+# Flutter Timer with MobX
 
-A new Flutter project.
+Small timer-interface study using Flutter, MobX and Provider.
 
-## Getting Started
+## Project scope
 
-This project is a starting point for a Flutter application.
+A study or technical-challenge implementation from its original development period. It is shared as a portfolio reference; the original implementation and commit history are preserved.
 
-A few resources to get you started if this is your first Flutter project:
+## Stack and SDK
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Flutter and Dart.
+- Main declared packages: `mobx`, `flutter_mobx`, `provider`.
+- Dart SDK constraint from `pubspec.yaml`: `>=2.12.0 <3.0.0`.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Use a Flutter release with a Dart SDK inside that range. Dependency modernization is a separate change from publishing this historical example.
+
+## Run
+
+```bash
+flutter pub get
+flutter run
+```
+
+## Attribution
+
+Original project notes and any third-party credits are retained. Third-party services, assets and dependencies remain subject to their respective terms and licenses.
